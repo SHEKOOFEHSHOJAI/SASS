@@ -3,10 +3,31 @@ $info:yellow;
 $eroor:red;
 $secendry:#1ac888;
 
+
 //colors
 $colors:(
-   
-)
+    "primary":$primary,
+    "secondary":$secendry,
+    "info":$info,
+    "blue":blue,
+    "red":red,
+    "green":green,
+    "orange":orange,
+    "purple":#9900ff,
+    "black":black,
+    "white":white,
+);
+.test-btn{
+    background: map-get($colors ,"purple");
+}
+
+//show color purple
+@debug map-get($colors,"purple");
+@debug map-get-key($colors,"white");
+//remove in list
+@debug map-remove($colors,"white");
+//insert pink in list
+@debug map-merge($colors,("pink",#ffc0cb));
 // spacing
 $base-padding:0.75rem;
 $base-margin:0.75rem;
