@@ -6,7 +6,7 @@
     padding: $base-padding;
     border: $base-border-thickness solid #ddd;
     box-shadow: $base-box-shadow;
-    border-radius:math.div($base-border-radius ,4);
+    border-radius:math.div($base-border-radius, 4);
 
 .card-title{
     font-size: $base-font-size-lg;
@@ -26,3 +26,6 @@
 
  
 }
+@debug 'hello shekoo';
+@debug math.div(10,3);
+@debug math.max(1px,20px,15px,12px)

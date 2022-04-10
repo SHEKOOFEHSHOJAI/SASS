@@ -64,14 +64,13 @@ button {
 }
 
 @use 'sass:math';
-
 .card {
   display: block;
   padding: 0.75rem;
   border: 1px solid #ddd;
   -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
           box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-  border-radius: math 5px;
+  border-radius: 5px;
 }
 
 .card .card-title {
@@ -86,14 +85,5 @@ button {
 
 .card .card-body a {
   text-decoration: underline;
-}
-
-.card {
-  display: block;
-  padding: 0.75rem;
-  border: 1px solid #ddd;
-  -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-  background: #1ac888;
 }
 /*# sourceMappingURL=index.css.map */
