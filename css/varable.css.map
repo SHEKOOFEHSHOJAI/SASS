@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAmBA,AAAA,SAAS,CAAA;EACL,UAAU,EALD,OAAO;CAMnB",
+    "mappings": "AAsBA,AAAA,SAAS,CAAA;EACL,UAAU,EANF,OAAO;CAOlB",
     "sources": [
         "varable.scss"
     ],
