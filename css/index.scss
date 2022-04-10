@@ -1,0 +1,15 @@
+@import "base";
+@import "varable";
+
+//colors
+
+//components
+@import "card";
+.card {
+  display: block;
+  padding: $base-padding;
+  border: $base-border-thickness solid #ddd;
+  box-shadow: $base-box-shadow;
+  background: $secendry;
+}
+
