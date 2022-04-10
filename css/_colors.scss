@@ -1,9 +1,14 @@
-@each $key,$var in $colors {
+@each $key, $var in $colors {
     .text-#{$key}{
         color: $var;
 
     }
     .bg-#{$key}{
         background-color: $var;
+    }
+    @for $si from 1 through 9{
+        .text-#{$key}-light-#{si}{
+            color: max(white,$var,$si*10);
+        }
     }
 }
