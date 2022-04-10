@@ -6,9 +6,25 @@
     .bg-#{$key}{
         background-color: $var;
     }
+    //light color text
     @for $si from 1 through 9{
         .text-#{$key}-light-#{si}{
-            color: max(white,$var,$si*10);
+            color: mix(white,$var,$si*10);
+        }
+        //light color background
+        .bg-#{$key}-light-#{si}{
+            background-color: mix(white,$var,$si*10);
+        }
+    }
+
+    //dark
+    @for $si from 1 through 9{
+        .text-#{$key}-dark-#{si}{
+            color: mix(black,$var,$si*10);
+        }
+        //light color background
+        .bg-#{$key}-dark-#{si}{
+            background-color: mix(white,$var,$si*10);
         }
     }
 }
